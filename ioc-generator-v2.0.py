@@ -144,7 +144,7 @@ def directory_as_input(arg):
 args = parser.parse_args()
 
 
-# Check for --version or -V
+# Check for --file or -f
 if args.file:
     iocGrab(args.file)
     print(report_time_footer)
@@ -153,7 +153,7 @@ if args.file:
 # Check for --directory or -d
 elif args.directory:
     directory_as_input(args.directory)
-# Check for --file or -f
+# Check for --version or -V
 elif args.version:
     print("IOC Generator version 2.0")
 # Print usage information if no arguments are provided
