@@ -5,6 +5,8 @@ Quickly generate common Indicators of Compromise (IOCs) from files with Python (
 
 Quickly generate common Indicators of Compromise (IOCs) from a single file or directory which can then be incorporated into tools like Mandiant's IOCe.
 
+Here are the options included in the script:
+
 ``` noLineNumbers
 usage: ioc-generator-v2.0.py [-h] [-f FILE] [-d DIRECTORY] [-V]
 
